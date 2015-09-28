@@ -3,7 +3,7 @@ Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCou
 
 This repository keeps project files of "Getting and Cleaning Data - Course Project". 
 
-The data set is on wearable computing, and is collected from the accelerometers from the Samsung Galaxy S smartphones. It can be accessed from this link:[Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+The data set is on wearable computing, and is collected from the accelerometers from the Samsung Galaxy S smartphones. It can be accessed from this link: [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 "CodeBook.md" is a code book that describes the variables, the data, and any transformations or work performed to clean up the data. 
 
