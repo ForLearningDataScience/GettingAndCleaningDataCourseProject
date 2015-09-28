@@ -2,11 +2,11 @@
 # Jasmine Mou
 # 2015-09-27
 # Reference: http://www.cookbook-r.com/Manipulating_data/Summarizing_data/
-# Github Link:
+# Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
 library(plyr)
 
-## 1. Merges the training and the test sets to create one data set.
+### 1. Merges the training and the test sets to create one data set.
 x_train <- read.table("dataset/train/X_train.txt")
 y_train <- read.table("dataset/train/Y_train.txt")
 subject_train <- read.table("dataset/train/subject_train.txt")
@@ -21,13 +21,13 @@ subject <- rbind(subject_train, subject_test)
 
 
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-features <- read.table("features.txt")
+features <- read.table("dataset/features.txt")
 mean_std_indexes <- grep("-(mean|std)\\(\\)", features[, 2])
 x_mean_std <- x[, mean_std_indexes]
 
 
 ## 3. Uses descriptive activity names to name the activities in the data set
-activities <- read.table("activity_labels.txt")
+activities <- read.table("dataset/activity_labels.txt")
 
 ### replace the feature numbers with according activity names.
 y[,1] <- activities[y[,1], 2]
@@ -47,4 +47,4 @@ data_mean_std <- cbind(x_mean_std, y, subject)
 ## 5. From the data set in step 4, creates a second, independent tidy data set 
 ## with the average of each variable for each activity and each subject.
 tidy <- ddply(.data = data_mean_std, .variables = c("Activity", "Subject"), .fun = function(data_mean_std) colMeans(data_mean_std[,1:66]))
-write.table(tidy, file = "average_grp_by_activity_subject.txt", row.name = FALSE)
+write.table(tidy, file = "averages_Activity_Subject.txt", row.name = FALSE)
