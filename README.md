@@ -1,7 +1,7 @@
 # GettingAndCleaningDataCourseProject
 Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
-This repository keeps project files of *`Getting and Cleaning Data - Course Project`*. 
+This repository keeps project files of *Getting and Cleaning Data - Course Project*. 
 
 The data set is on wearable computing, and is collected from the accelerometers from the Samsung Galaxy S smartphones. It can be accessed from this link: [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
