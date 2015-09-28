@@ -1,5 +1,5 @@
 # GettingAndCleaningDataCourseProject
-Github Link: (https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject)
+Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
 This repository keeps project files of "Getting and Cleaning Data - Course Project". 
 
@@ -11,6 +11,7 @@ The data set is on wearable computing, and is collected from the accelerometers 
 To obtain the output, download the whole repository, set the working directory to the directory holding "run_analysis.R" file. In R studio, enter command: source("run_analysis.txt"). 
 
 "averages_Activity_Subject.txt" is the final output of cleaned data. 
+
 
 
 

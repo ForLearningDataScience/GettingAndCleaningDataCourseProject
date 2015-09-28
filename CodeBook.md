@@ -1,5 +1,5 @@
 # GettingAndCleaningDataCourseProject
-Github Link: (https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject)
+Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
 ## Procedures 
 
@@ -38,6 +38,7 @@ Combine the filtered and literally understandable data together:
 Create an independent data set as an output:
 	"tidy": contain the average of each variable grouped by "Activity" and "Subject".
 			output it to "averages_Activity_Subject.txt" file.
+
 
 
 
