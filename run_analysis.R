@@ -1,6 +1,6 @@
 # run_analysis.R
 # Jasmine Mou
-# 2015-09-27
+# 2015-10-11
 # Reference: http://www.cookbook-r.com/Manipulating_data/Summarizing_data/
 # Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
