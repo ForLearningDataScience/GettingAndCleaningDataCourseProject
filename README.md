@@ -1,5 +1,5 @@
 # GettingAndCleaningDataCourseProject
-# Last modification: Oct. 11 2015
+Last modification: Oct. 11 2015
 Github Link: https://github.com/ForLearningDataScience/GettingAndCleaningDataCourseProject
 
 This repository keeps project files of *Getting and Cleaning Data - Course Project*. 
