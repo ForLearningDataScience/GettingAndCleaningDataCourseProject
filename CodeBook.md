@@ -20,7 +20,6 @@ Filter out the columns with average and standard deviation variables from the co
 	`mean_std_indexes`: filter out the keywords with `mean` and `std` from `features`, and return their indexes in the feature list.
 	`x_mean_std`: obtain columns from `x` with indexes `mean_std_indexes`.
 
-
 #### Make the data literally understandable
 Replace the activity numbers with matched activity names in `y` column:
 	`y`: update the contents of `y` with reference from `activities`.
@@ -37,7 +36,7 @@ Combine the filtered and literally understandable data together:
 
 Create an independent data set as an output:
 	`tidy`: contain the average of each variable grouped by `Activity` and `Subject`.
-			output it to `averages_Activity_Subject.txt` file.
+		Output the result to `averages_Activity_Subject.txt` file.
 
 
 
